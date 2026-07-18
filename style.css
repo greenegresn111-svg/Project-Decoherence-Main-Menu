@@ -44,6 +44,12 @@ h1 {
     flex-direction: column;
     align-items: center;
     padding: 8vh 1rem 6vh;
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+
+.page.game_started {
+    opacity: 0;
 }
 
 .menu_buttons {
